@@ -13,7 +13,7 @@
             android:name=".QuizQActivity"
             android:screenOrientation="portrait"
             android:exported="false"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true"
