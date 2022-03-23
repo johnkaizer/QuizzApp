@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizzy">
         <activity
-            android:name=".QuizQActivity"
-            android:screenOrientation="portrait"
+            android:name=".TheEnd"
             android:exported="false"
-            />
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuizQActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

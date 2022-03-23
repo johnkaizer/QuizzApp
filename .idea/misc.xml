@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/correct_answer_border.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/default_border.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/select_border.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/wrong_answer_border.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_main.xml" value="0.14" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_quiz_qactivity.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_the_end.xml" value="0.14" />
       </map>
     </option>
   </component>

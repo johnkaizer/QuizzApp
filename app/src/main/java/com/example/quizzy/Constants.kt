@@ -1,6 +1,12 @@
 package com.example.quizzy
 
 object Constants{
+
+    const val USER_NAME: String = "user_name"
+    const val TOTAL_QUESTIONS: String = "total_question"
+    const val CORRECT_ANSWERS: String = "correct_answers"
+
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList =ArrayList<Question>()
 
@@ -8,7 +14,7 @@ object Constants{
             1,
             "What type of dog breed is this?",
              R.drawable.german,
-            "BoerBel",
+            "BoerBoel",
             "German Shepherd",
             "Maltese",
             "Rotweiller",
@@ -20,7 +26,7 @@ object Constants{
             1,
             "What type of dog breed is this?",
             R.drawable.maltese,
-            "BoerBel",
+            "BoerBoel",
             "German Shepherd",
             "Maltese",
             "Rotweiller",
@@ -32,7 +38,7 @@ object Constants{
             1,
             "What type of dog breed is this?",
             R.drawable.boerrbel,
-            "BoerBel",
+            "BoerBoel",
             "German Shepherd",
             "Maltese",
             "Rotweiller",
@@ -55,7 +61,7 @@ object Constants{
         val que5 =Question(
             1,
             "What type of dog is this?",
-            R.drawable.sab,
+            R.drawable.rottweile,
             "German shepherd",
             "Rottweiler",
             "Maltese",
