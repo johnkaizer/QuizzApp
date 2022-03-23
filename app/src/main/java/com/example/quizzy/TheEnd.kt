@@ -19,7 +19,7 @@ class TheEnd : AppCompatActivity() {
         tv_name.text = username
         val totalQuestions = intent.getIntExtra(Constants.TOTAL_QUESTIONS,0)
         val correctAnswers = intent.getIntExtra(Constants.CORRECT_ANSWERS,0)
-        tv_score.text ="Your Score is $correctAnswers out off $totalQuestions"
+        tv_score.text ="Your Score is $correctAnswers out of $totalQuestions"
 
         btn_finish.setOnClickListener{
             startActivity(Intent(this,MainActivity::class.java))
