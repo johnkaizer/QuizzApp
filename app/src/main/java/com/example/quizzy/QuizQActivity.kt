@@ -125,6 +125,7 @@ class QuizQActivity : AppCompatActivity() ,View.OnClickListener{
                         intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
                         intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionList!!.size)
                         startActivity(intent)
+                        finish()
                         }
                     }
 
